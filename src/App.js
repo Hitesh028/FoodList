@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import DigitalClock from './DigitalClock/DigitalClock';
 import FoodList from './FoodList/FoodList';
 // import PokemonAPI from './PokemonAPI/PokemonAPI';
 
@@ -25,7 +26,8 @@ function App() {
     <>
     {/* <h1>Pokemon</h1> */}
     {/* <PokemonAPI /> */}
-    <FoodList/>
+    {/* <FoodList/> */}
+    <DigitalClock/>
     </>
     
   );
